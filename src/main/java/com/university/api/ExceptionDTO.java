@@ -7,6 +7,9 @@ import lombok.Data;
 @AllArgsConstructor
 public class ExceptionDTO {
 
+    private ExceptionDTO(){
+    }
+
     private String exceptionName;
     private String errorMessage;
 }
